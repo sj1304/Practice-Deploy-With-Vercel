@@ -1,0 +1,33 @@
+--------------------------------------GIT COMMANDS--------------------------------------------
+*Create a Repository in Github first then continue the below:
+
+******First time file pushing without anything in repo:********
+git init
+
+git remote remove origin
+
+git remote add origin https://github.com/sj1304/Practice-Deploy-With-Vercel.git
+
+git add .
+
+git commit -m "update"
+
+git push --set-upstream origin main
+
+
+*******Already files on repo try to pull->push new files.********
+git init
+
+git pull origin main
+
+git status
+
+git add .
+
+git commit -m "added new files / updated code"
+
+git pull origin main
+
+git push
+
+*********Update Existing files***************
